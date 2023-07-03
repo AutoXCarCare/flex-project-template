@@ -1,12 +1,18 @@
 [{
   "minimum": null,
   "multivalue": false,
-  "name": "template_example_support",
+  "name": "Service",
   "maximum": null
 },
 {
   "minimum": null,
   "multivalue": false,
-  "name": "template_example_sales",
+  "name": "Scheduling",
+  "maximum": null
+},
+{
+  "minimum": null,
+  "multivalue": false,
+  "name": "Specialised",
   "maximum": null
 }]
