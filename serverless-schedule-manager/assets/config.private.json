@@ -1,72 +1,11 @@
 {
   "rules": [
     {
-      "id": "eee7d8eb-f966-4a23-8743-ec3452cd11ad",
-      "name": "July 4th",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=4"
-    },
-    {
-      "id": "21cc41d6-9f4a-4e49-b61b-bcd5cf94d870",
-      "name": "Labor Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "startDate": "2023-09-04",
-      "endDate": "2023-09-04"
-    },
-    {
-      "id": "61703be8-412c-4bd5-8a6b-afe7e9ecb304",
-      "name": "Thanksgiving Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "startDate": "2023-11-23",
-      "endDate": "2023-11-23"
-    },
-    {
-      "id": "b2b4ae7b-d491-46dd-b387-1321c88ac50a",
-      "name": "Memorial Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "startDate": "2023-05-29",
-      "endDate": "2023-05-29"
-    },
-    {
       "id": "c4d10897-63b8-485e-bd8a-0db23276dec8",
       "name": "Christmas Day",
       "isOpen": false,
       "closedReason": "holiday",
       "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=25"
-    },
-    {
-      "id": "0f437b04-5d8e-46ce-824f-3591375f9beb",
-      "name": "Martin Luther King Jr. Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "startDate": "2023-01-16",
-      "endDate": "2023-01-16"
-    },
-    {
-      "id": "cda1c3fb-39ab-4a25-9342-6bef21ede470",
-      "name": "Presidents' Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "startDate": "2023-02-20",
-      "endDate": "2023-02-20"
-    },
-    {
-      "id": "4f6f2952-fa96-4047-b52f-81ed7e8dacd2",
-      "name": "Juneteenth",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=19"
-    },
-    {
-      "id": "51800893-7050-413d-a692-201e3d0161b6",
-      "name": "Veterans Day",
-      "isOpen": false,
-      "closedReason": "holiday",
-      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=11"
     },
     {
       "id": "46c34f64-1efb-4453-9178-1ae6573d13ae",
@@ -82,25 +21,59 @@
       "startTime": "08:00",
       "endTime": "17:00",
       "dateRRule": "RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR"
+    },
+    {
+      "id": "e30640e1-e501-40b9-924f-f7b0f94cbe03",
+      "name": "Australia Day",
+      "isOpen": false,
+      "closedReason": "holiday",
+      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=26"
+    },
+    {
+      "id": "fd1da4dc-0edf-486b-854d-e56ad60b9c9f",
+      "name": "Good Friday",
+      "isOpen": false,
+      "closedReason": "holiday",
+      "startDate": "2023-04-07",
+      "endDate": "2023-04-07"
+    },
+    {
+      "id": "739457f9-dcd4-401f-9d5b-4119194d0d4e",
+      "name": "Easter Monday",
+      "isOpen": false,
+      "closedReason": "holiday",
+      "startDate": "2023-04-10",
+      "endDate": "2023-04-10"
+    },
+    {
+      "id": "d540f4bd-c86d-4b7f-8cd3-80c09a1e2773",
+      "name": "Anzac Day",
+      "isOpen": false,
+      "closedReason": "holiday",
+      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=25"
+    },
+    {
+      "id": "ff0b8e25-ba11-4474-9855-b9a3cb7c6a21",
+      "name": "Boxing Day",
+      "isOpen": false,
+      "closedReason": "holiday",
+      "dateRRule": "RRULE:FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=26"
     }
   ],
   "schedules": [
     {
       "name": "Example",
       "manualClose": false,
-      "timeZone": "America/Chicago",
+      "timeZone": "Australia/Sydney",
       "rules": [
         "5c0c7b9c-787f-4245-bb5b-b31160cb3ec5",
         "c4d10897-63b8-485e-bd8a-0db23276dec8",
-        "eee7d8eb-f966-4a23-8743-ec3452cd11ad",
-        "4f6f2952-fa96-4047-b52f-81ed7e8dacd2",
-        "21cc41d6-9f4a-4e49-b61b-bcd5cf94d870",
-        "0f437b04-5d8e-46ce-824f-3591375f9beb",
-        "b2b4ae7b-d491-46dd-b387-1321c88ac50a",
         "46c34f64-1efb-4453-9178-1ae6573d13ae",
-        "cda1c3fb-39ab-4a25-9342-6bef21ede470",
-        "61703be8-412c-4bd5-8a6b-afe7e9ecb304",
-        "51800893-7050-413d-a692-201e3d0161b6"
+        "d540f4bd-c86d-4b7f-8cd3-80c09a1e2773",
+        "e30640e1-e501-40b9-924f-f7b0f94cbe03",
+        "ff0b8e25-ba11-4474-9855-b9a3cb7c6a21",
+        "739457f9-dcd4-401f-9d5b-4119194d0d4e",
+        "fd1da4dc-0edf-486b-854d-e56ad60b9c9f"
       ]
     }
   ]
