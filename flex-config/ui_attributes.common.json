@@ -38,7 +38,7 @@
         "display_url_when_no_tasks": "https://www.bing.com"
       },
       "internal_call": {
-        "enabled": true
+        "enabled": false
       },
       "scrollable_activities": {
         "enabled": true
@@ -129,7 +129,7 @@
         "enabled": false
       },
       "agent_automation": {
-        "enabled": true,
+        "enabled": false,
         "configuration": [
           {
             "channel": "voice",
@@ -163,8 +163,8 @@
         "enabled": true
       },
       "custom_hold_music": {
-        "enabled": false,
-        "url": ""
+        "enabled": true,
+        "url": "https://handler.twilio.com/twiml/EH01dbcfc803544628b611212a334a6f88"
       },
       "custom_transfer_directory": {
         "enabled": true,
@@ -191,7 +191,7 @@
         }
       },
       "dispositions": {
-        "enabled": true,
+        "enabled": false,
         "enable_notes": true,
         "require_disposition": false,
         "global_dispositions": [
