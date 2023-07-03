@@ -9,10 +9,4 @@
   "multivalue": false,
   "name": "Scheduling",
   "maximum": null
-},
-{
-  "minimum": null,
-  "multivalue": false,
-  "name": "Specialised",
-  "maximum": null
 }]
